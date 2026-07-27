@@ -1,0 +1,8 @@
+{
+    "KeilAssistant.MDK.Uv4Path": "D:\\Keil_v5\\UV4\\UV4.exe",
+    "C_Cpp.errorSquiggles": "enabled",
+    "files.associations": {
+        "*.ioc": "properties",
+        "*.sct": "plaintext"
+    }
+}

@@ -1,0 +1,40 @@
+# Keil MDK generated outputs
+/MDK-ARM/1/
+/MDK-ARM/.vscode/
+/MDK-ARM/*.uvguix.*
+/MDK-ARM/*.log
+/MDK-ARM/*.log.lock
+/MDK-ARM/*.lst
+
+# Unused CMSIS-DSP sources, examples and prebuilt variants.
+# The project only includes Drivers/CMSIS/DSP/Include.
+/Drivers/CMSIS/DSP/*
+!/Drivers/CMSIS/DSP/Include/
+!/Drivers/CMSIS/DSP/Include/**
+/Drivers/CMSIS/NN/
+/Drivers/CMSIS/RTOS/
+/Drivers/CMSIS/RTOS2/
+/Drivers/CMSIS/docs/
+
+# Keep only the ARMCLANG Cortex-M4F DSP library referenced by 1.uvprojx.
+/Middlewares/ST/ARM/DSP/Lib/*
+!/Middlewares/ST/ARM/DSP/Lib/libarm_cortexM4lf_math.a
+
+# Common embedded build artifacts
+*.axf
+*.bin
+*.d
+*.dep
+*.elf
+*.hex
+*.map
+*.o
+*.obj
+*.sct.bak
+
+# Local editor and operating-system files
+*.code-workspace
+*.suo
+*.user
+.DS_Store
+Thumbs.db

@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "STM32G474-Keil",
+            "includePath": [
+                "D:/Keil_v5/ARM/ARMCLANG/include",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32G4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/DSP/Include",
+                "${workspaceFolder}",
+                "${workspaceFolder}/Middlewares/ST/ARM/DSP/Inc",
+                "${workspaceFolder}/SG/inc",
+                "${workspaceFolder}/SG/control",
+                "${workspaceFolder}/SG/sys",
+                "${workspaceFolder}/SG/driver",
+                "${workspaceFolder}/SG/math",
+                "${workspaceFolder}/SG",
+                "${workspaceFolder}/OT",
+                "${workspaceFolder}/MDK-ARM"
+            ],
+            "compilerPath": "D:/Keil_v5/ARM/ARMCLANG/bin/armclang.exe",
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32G474xx",
+                "ARM_MATH_CM4",
+                "__GNUC__=11",
+                "__GNUC_MINOR__=2",
+                "__GNUC_PATCHLEVEL__=1",
+                "__arm__=1",
+                "__thumb__=1",
+                "__FPU_PRESENT=1",
+                "__MPU_PRESENT=1"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-arm"
+        }
+    ],
+    "version": 4
+}
